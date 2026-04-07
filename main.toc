@@ -13,10 +13,10 @@
 \contentsline {section}{\numberline {2.1}Methodology}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}First Study}{5}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Second Study}{5}{section.2.3}%
-\contentsline {chapter}{CONCLUSION}{6}{chapter*.6}%
-\contentsline {section}{\numberline {2.4}Summary of Findings}{6}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Limitations}{6}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Future Work}{6}{section.2.6}%
-\contentsline {chapter}{REFERENCES}{7}{chapter*.7}%
-\contentsline {chapter}{PUBLICATIONS}{8}{appendix*.8}%
-\contentsline {chapter}{CURRICULUM VITAE}{9}{appendix*.9}%
+\contentsline {chapter}{CONCLUSION}{7}{chapter*.8}%
+\contentsline {section}{\numberline {2.4}Summary of Findings}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Limitations}{7}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Future Work}{7}{section.2.6}%
+\contentsline {chapter}{REFERENCES}{8}{chapter*.9}%
+\contentsline {chapter}{PUBLICATIONS}{9}{appendix*.10}%
+\contentsline {chapter}{CURRICULUM VITAE}{10}{appendix*.11}%

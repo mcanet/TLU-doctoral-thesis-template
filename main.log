@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.30)  7 APR 2026 13:18
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.30)  7 APR 2026 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1509,16 +1509,16 @@ Chapter 1.
 
 ]
 Chapter 2.
-(./text/03_case_studies.tex)
+(./text/03_case_studies.tex
+File: figure/dummy.png Graphic file (type bmp)
+<figure/dummy.png>
+)
 
 [5
 
-] (./text/04_conclusion.tex)
-
-[6
-
-
 ]
+
+[6] (./text/04_conclusion.tex)
 
 [7
 
@@ -1526,6 +1526,11 @@ Chapter 2.
 ]
 
 [8
+
+
+]
+
+[9
 
 
 ]
@@ -1555,7 +1560,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
 
 
-[9
+[10
 
 
 ] (./main.aux)
@@ -1568,26 +1573,19 @@ L3 programming layer <2025-01-18>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B9EB99C2D194AEC30F4BCE23CF3C6108;2598.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: EB97F767E259DF86623021A45DFE21D9;2600.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37517 strings out of 475366
- 763226 string characters out of 5762338
- 1897923 words of memory out of 5000000
- 59921 multiletter control sequences out of 15000+600000
+ 37563 strings out of 475366
+ 764229 string characters out of 5762338
+ 1898137 words of memory out of 5000000
+ 59964 multiletter control sequences out of 15000+600000
  560401 words of font info for 76 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 99i,9n,107p,1181b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,11n,107p,1181b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (13 pages).
+Output written on main.pdf (14 pages).
