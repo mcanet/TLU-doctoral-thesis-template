@@ -1,0 +1,157 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{dummy_ref1}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=933758a4fedf2a52b9ead611580ff273}{%
+           family={Lozano-Hemmer},
+           familyi={L\bibinithyphendelim H\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{fullhash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{fullhashraw}{933758a4fedf2a52b9ead611580ff273}
+      \strng{bibnamehash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{authorbibnamehash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{authornamehash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{authorfullhash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{authorfullhashraw}{933758a4fedf2a52b9ead611580ff273}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Leonardo}
+      \field{number}{1}
+      \field{title}{Perverting Technological Correctness}
+      \field{volume}{29}
+      \field{year}{1996}
+      \field{pages}{5\bibrangedash 15}
+      \range{pages}{11}
+    \endentry
+    \entry{dummy_ref2}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=815de62ec0071f72ab07b6bffc51a626}{%
+           family={McLuhan},
+           familyi={M\bibinitperiod},
+           given={Marshall},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{fullhash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{fullhashraw}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{bibnamehash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{authorbibnamehash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{authornamehash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{authorfullhash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{authorfullhashraw}{815de62ec0071f72ab07b6bffc51a626}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding Media: The Extensions of Man}
+      \field{year}{1964}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{dummy_ref1}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=933758a4fedf2a52b9ead611580ff273}{%
+           family={Lozano-Hemmer},
+           familyi={L\bibinithyphendelim H\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{fullhash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{fullhashraw}{933758a4fedf2a52b9ead611580ff273}
+      \strng{bibnamehash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{authorbibnamehash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{authornamehash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{authorfullhash}{933758a4fedf2a52b9ead611580ff273}
+      \strng{authorfullhashraw}{933758a4fedf2a52b9ead611580ff273}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Leonardo}
+      \field{number}{1}
+      \field{title}{Perverting Technological Correctness}
+      \field{volume}{29}
+      \field{year}{1996}
+      \field{pages}{5\bibrangedash 15}
+      \range{pages}{11}
+    \endentry
+    \entry{dummy_ref2}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=815de62ec0071f72ab07b6bffc51a626}{%
+           family={McLuhan},
+           familyi={M\bibinitperiod},
+           given={Marshall},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{fullhash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{fullhashraw}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{bibnamehash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{authorbibnamehash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{authornamehash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{authorfullhash}{815de62ec0071f72ab07b6bffc51a626}
+      \strng{authorfullhashraw}{815de62ec0071f72ab07b6bffc51a626}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding Media: The Extensions of Man}
+      \field{year}{1964}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

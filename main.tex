@@ -1,0 +1,126 @@
+% Compile with XeLaTeX (recommended) or LuaLaTeX
+\documentclass{tlu-thesis}
+
+% ---- Bibliography resource ----
+\addbibresource{references.bib}
+
+% --------------------------------------------------------
+% TLU Doctoral Thesis Template
+% Template authored by: Mar Canet Sola (Template creator)
+% --------------------------------------------------------
+
+% ---- Fill metadata ----
+\authorname{Name Surname}
+\titleen{Your Thesis Title Goes Here}
+
+\institute{Baltic Film, Media and Arts School (BFM), Tallinn University, Tallinn, Estonia}
+
+\seriesnumber{00}
+\supervisors{Prof. Name Surname (University Name)}
+\opponents{Prof. Name Surname (University Name), Dr. Name Surname (University Name)}
+\defensedate{Month day, 2026}
+\defensetime{Hour}
+\defenseplace{Tallinn University lecture hall A-242, Narva st 29, Tallinn}
+\funding{This research was supported by...}
+\copyrightholder{Name Surname}
+
+\begin{document}
+
+% Front pages + ToC
+\TLUFrontPages
+
+% ---- Optional front matter sections (start page numbering with Arabic numerals) ----
+\pagenumbering{arabic}\setcounter{page}{1}
+\pagestyle{fancy}\fancyhf{}\fancyfoot[C]{\thepage}
+
+% Use unnumbered top-level headings required by the Guide (ALL CAPS, unnumbered, in TOC)
+\TLUunnumberedchapter{LIST OF PUBLICATIONS}
+\input{text/publications.tex}
+
+\clearpage
+\TLUunnumberedchapter{ABSTRACT}
+\input{text/abstract.tex}
+
+%\clearpage
+%\TLUunnumberedchapter{PREFACE}
+% Add your preface here
+
+%\clearpage
+%\TLUunnumberedchapter{ACKNOWLEDGEMENTS}
+% Add your acknowledgements here
+
+%\clearpage
+%\TLUunnumberedchapter{LIST OF ABBREVIATIONS}
+% Add your abbreviations here
+
+% ---- Main matter ----
+\clearpage
+
+% INTRODUCTION must be an unnumbered first-level heading per the Guide
+\TLUunnumberedchapter{INTRODUCTION}
+% Unnumbered section for INTRODUCTION
+\newcommand{\introsection}[1]{%
+  \section*{#1}
+  \addcontentsline{toc}{section}{#1}
+}
+
+% Unnumbered subsection for INTRODUCTION
+\newcommand{\introsubsection}[1]{%
+  \subsection*{#1}
+  \addcontentsline{toc}{subsection}{#1}
+}
+\input{text/01_introduction.tex}
+
+% If you want the literature review to be a numbered chapter, keep as \chapter;
+% but if it's part of the main body and should be numbered under Studies, adapt accordingly.
+% Here we retain your existing input (no chapter command) — if you want it as a chapter, change to \chapter{...}
+%\chapter{Theoretical Foundations for Artist-Guided Neural Networks}
+\chapter{THEORETICAL FOUNDATIONS}
+\input{text/02_literatureReview.tex}
+
+\chapter{STUDIES}
+\input{text/03_case_studies.tex}
+
+% CONCLUSION must be unnumbered first-level heading per the Guide
+\TLUunnumberedchapter{CONCLUSION}
+\input{text/04_conclusion.tex}
+
+% REFERENCES as an unnumbered first-level heading
+\TLUunnumberedchapter{REFERENCES}
+\printbibliography[heading=none,notcategory=inlineonly]
+
+\appendix
+
+
+% PUBLICATIONS section with embedded PDFs — unnumbered first-level heading
+\TLUunnumberedchapter{PUBLICATIONS}
+
+% Add your publications here as PDFs
+% \includepdf[pages=-]{publications/paper1.pdf}
+% \includepdf[pages=-]{publications/paper2.pdf}
+
+
+% CURRICULUM VITAE as required: unnumbered top-level heading
+\TLUunnumberedchapter{CURRICULUM VITAE}
+% ---- CV (English) ----
+\begin{TLUEnglishCV}
+\TLUCVRow{Name}{Name Surname}
+\TLUCVRow{Date and place of Birth}{1st January 1990, City (Country)}
+\TLUCVRow{Citizenship}{Citizenship}
+\end{TLUEnglishCV}
+
+\TLUCVHeading{Education}
+Since 20xx \quad Baltic Film, Media and Arts School of Tallinn University (Estonia), PhD student in Audiovisual Arts\\
+20yy-20xx \quad MA Degree. University (Country)\\
+20zz-20yy \quad BA Degree. University (Country)\\
+
+\TLUCVHeading{Professional experience}
+
+Since September 20xx \quad
+    Job Title at Institute, University (City, Country)\\
+
+\TLUCVHeading{Scientific interests}
+Your scientific interests and keywords here 
+
+
+\end{document}
