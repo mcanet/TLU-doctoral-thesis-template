@@ -9,7 +9,7 @@ This is an unofficial LaTeX template for doctoral theses at Tallinn University. 
 This template is based on the official Tallinn University guidelines for formatting a doctoral thesis, which can be found here:  
 [https://www.tlu.ee/en/phd-students#regulations-and-documents--guidelines-for-formatting-a-doctoral-thesis](https://www.tlu.ee/en/phd-students#regulations-and-documents--guidelines-for-formatting-a-doctoral-thesis)
 
-You can use this template in Overleaf: https://www.overleaf.com/read/ygfzsbvzwpxq#e6ae10
+You can use this template in Overleaf: https://www.overleaf.com/4281267886ynhkvfthvgmv#b676ce
 
 ## Features
 
